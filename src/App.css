@@ -1,0 +1,184 @@
+body {
+  background-color: rgb(243, 235, 233, 1);
+}
+
+.App-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.App-logo {
+  position: absolute;
+  top: 50px;
+  margin-left: 5%;
+  height: 240px;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 950px){
+  .App-logo {
+    margin-top: 100px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .App-logo {
+    height: 100px;
+    margin-top: 125px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .App-logo {
+    margin-left: 2%;
+    margin-top: 150px;
+    height: 75px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  width: 240px;
+  height: 240px;
+}
+
+.App-title {
+  margin-left: 30%;
+  margin-right: 25%;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.App-title h1 {
+  color: rgb(255, 79, 49, 1);
+}
+
+.App-title span {
+  color: rgb(41, 38, 99, 1);
+}
+
+.Cover-image {
+  margin-left: 75%;
+}
+
+.cv-img {
+  position: absolute;
+  top: 50px;
+  height: 340px;
+  width: 340px;
+}
+
+@media screen and (max-width: 1000px){
+  .cv-img {
+    top: 75px;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .cv-img {
+    top: 125px;
+    height: 150px;
+    width: 150px;
+  }
+  .App-title {
+    padding-left: 20px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .cv-img {
+    top: 175px;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.App-subheader {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 50px;
+}
+
+.App-subheader h2 {
+  color: rgb(55, 65, 81, 1);
+}
+
+.submit-btn {
+  font-size: 14px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgb(255, 79, 49, 1);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: white;
+    margin-left: 30px;
+}
+
+.txt-box {
+  border: 1px solid rgb(255, 79, 49, 1);
+  background-color: transparent;
+}
+
+.cards {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  text-align: center;
+  margin-left: 5px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  font-size: 4rem;
+  color: rgb(41, 38, 99);
+}
+
+.card p {
+  color: rgb(55, 65, 81);
+}
